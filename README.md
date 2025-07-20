@@ -13,5 +13,7 @@ root /path/files/;
 ```
 
 - **将light-theme-c文件夹放到网站根目录（/path/files/）**
- 
+
+
+ ### 样式
 ![样式](20250720-theme.png)
