@@ -8,11 +8,13 @@ var input = document.createElement('input');
 
 input.name = 'filter';
 input.id = 'search';
-input.placeholder = '点击此处搜索';
+input.placeholder = '点击此处搜索当前列表文件';
 
 form.appendChild(input);
 
-document.querySelector('h1').after(form);
+// document.querySelector('h1').after(form);
+// 插入到.header-container中，而不是h1后面
+document.querySelector('.header-container').appendChild(form);
 
 var listItems = [].slice.call(document.querySelectorAll('#list tbody tr'));
 
