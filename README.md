@@ -3,6 +3,7 @@
 ### fork form https://GitHub.com/Naereen/Nginx-Fancyindex-Theme
 
 ## 仅保证此主题对我的修改过的fancyindex可用。
+https://github.com/o-i-i-o/ngx-fancyindex-zh
 
 ### 使用方法：
 - **在NGINX配置文件的location块里 增加**
