@@ -28,6 +28,7 @@ body {
     margin: 0 auto;
     padding-top: 20px;
     max-width: 1000px;
+    padding-left: 10px; /* 左侧留间距，避免贴边 */
 }
  main {
         flex: 1;
@@ -41,11 +42,11 @@ thead {
 
 .header-container {
     display: flex;
+    flex-wrap: wrap; /* 允许子元素换行 */
     align-items: center; /* 垂直居中对齐 */
-    justify-content: space-between; /* 标题居左，搜索框居右 */
-    max-width: 1000px; /* 与body最大宽度一致 */
-    margin: 0 auto 20px; /* 底部留出间距 */
-    padding: 0 10px; /* 左右留白，避免贴边 */
+    gap: 12px; /* 标题和搜索框之间的紧密间距（可调整） */
+    margin: 0 0 20px 0; /* 左对齐，取消自动居中 */
+    padding: 0 10px;
 }
 
 h1 {
@@ -54,6 +55,8 @@ h1 {
     margin: 0;
     font-size: 1.4em;
     line-height: 2em;
+    /* 不设置flex:1，避免强制占据空间 */
+    white-space: nowrap; /* 路径过长时不折行，优先让搜索框换行 */
 }
 
 a {
@@ -138,8 +141,10 @@ input {
 table {
     border-collapse: collapse;
     font-size: 0.8em;
-    max-width: 100%;
+    width: 100%; /* 宽度100%，实现左对齐 */
+    max-width: 1000px;
     margin: 20px auto 0;
+    padding: 0 10px;
 }
 
 tr {
