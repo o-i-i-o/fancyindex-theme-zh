@@ -16,4 +16,4 @@ root /path/files/;
 
 
  ### 样式
-![样式](20250720-theme.png)
+![样式](20250720-2-theme.png)
