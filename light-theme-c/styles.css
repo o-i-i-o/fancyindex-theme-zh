@@ -44,7 +44,7 @@ thead {
     display: flex;
     flex-wrap: wrap; /* 允许子元素换行 */
     align-items: center; /* 垂直居中对齐 */
-    gap: 12px; /* 标题和搜索框之间的紧密间距（可调整） */
+    gap: 20px; /* 标题和搜索框之间的紧密间距（可调整） */
     margin: 0 0 20px 0; /* 左对齐，取消自动居中 */
     padding: 0 10px;
 }
