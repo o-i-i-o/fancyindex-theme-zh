@@ -55,6 +55,7 @@ h1 {
     white-space: nowrap;
     margin: 0;
 }
+
 #search {
     width: 200px;
     transition: all 300ms ease-in;
